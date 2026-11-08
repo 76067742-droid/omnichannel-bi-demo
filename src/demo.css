@@ -1,0 +1,20 @@
+.demo-shortcuts { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.demo-shortcuts .button { background: #fff; }
+.admin-samples { align-items: center; }
+.admin-samples button { font-weight: 650; }
+.card { scroll-margin-top: 100px; }
+
+@media (max-width: 750px) {
+  .topbar { display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .breadcrumb, .topbar-right { min-width: 0; }
+  .breadcrumb { display: flex; align-items: center; gap: 6px; }
+  .breadcrumb strong { min-width: 0; overflow-wrap: anywhere; }
+  .topbar-right { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px; }
+  .topbar-right .button, .breadcrumb .button { min-height: 34px; }
+  .sidebar.open { inset-block-start: 100px; }
+  .topbar-scope select { max-width: none; width: 100%; }
+  .demo-shortcuts { gap: 6px; }
+  .demo-shortcuts .button { min-height: 36px; }
+}
+
+.demo-export { float: right; margin-left: 8px; }

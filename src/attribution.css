@@ -1,0 +1,66 @@
+.paid-panel h3 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 16px 0 8px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.paid-panel h3::before {
+  width: 4px;
+  height: 14px;
+  border-radius: 3px;
+  background: #a5b4fc;
+  content: "";
+}
+
+.paid-panel .table-wrap {
+  max-height: 420px;
+  margin-top: 8px;
+}
+
+.paid-panel th,
+.paid-panel td {
+  text-align: center;
+}
+
+.paid-panel th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.paid-panel th:first-child,
+.paid-panel td:first-child {
+  color: #312e81;
+  font-weight: 650;
+  text-align: left;
+}
+
+.paid-panel .paid-note {
+  margin: 14px 0 0;
+  padding: 10px 12px;
+  border: 1px dashed #e2e8f0;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.paid-insights .tiles {
+  margin: 12px 0;
+}
+
+.paid-insights .tile {
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fbfdff;
+}
+
+.paid-insights .tile-value {
+  font-size: 15px;
+}
